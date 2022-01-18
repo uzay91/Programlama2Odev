@@ -1,7 +1,7 @@
 # Programlama2Odev
 
 <h2>Uzay Erol 19330248</h2>
-<h2> Programlama 2 Odevi</h2>
+
 <br/>
 <h1>Özellikler</h1>
 <hr/>
