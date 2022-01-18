@@ -1,6 +1,6 @@
 USE [Programlama2Odev]/*Change your database name if you want*/
 GO
-/****** Object:  Table [dbo].[MsgTable]    Script Date: 25-Jan-17 1:24:18 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -18,7 +18,7 @@ PRIMARY KEY CLUSTERED
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[UserDatabase]    Script Date: 25-Jan-17 1:24:18 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -49,7 +49,7 @@ REFERENCES [dbo].[UserDatabase] ([Username])
 GO
 ALTER TABLE [dbo].[MsgTable] CHECK CONSTRAINT [FK_MsgSender_Username]
 GO
-/****** Object:  StoredProcedure [dbo].[AddMsgToTable]    Script Date: 25-Jan-17 1:24:18 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -63,7 +63,7 @@ begin
 	Insert into msgtable (chatMsg, MsgSender, msgReceiver) values(@msg, @SenderName, @ReciverName)
 end
 GO
-/****** Object:  StoredProcedure [dbo].[ProcIsUserExist]    Script Date: 25-Jan-17 1:24:18 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
