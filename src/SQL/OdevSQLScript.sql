@@ -1,4 +1,4 @@
-USE [Programlama2Odev]/*Change your database name if you want*/
+USE [Programlama2Odev]
 GO
 
 SET ANSI_NULLS ON
