@@ -1,4 +1,6 @@
 # Programlama2Odev
+<h2><a href="https://github.com/uzay91/Programlama2Odev">Uzay Erol Github Programlama ödevi linki </a></h2> 
+
 <h2>Uzay Erol 19330248 Programlama 2 Odevi</h2>
 <br/>
 <h1>Giriş Ekranı</h1>
