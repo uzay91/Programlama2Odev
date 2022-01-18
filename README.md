@@ -1,5 +1,5 @@
 # Programlama2Odev
-Uzay Erol 19330248 Programlama 2 Odevi
+<h2>Uzay Erol 19330248 Programlama 2 Odevi</h2>
 <br/>
 <h1>Giriş Ekranı</h1>
 <p>Giriş ekranında login olmak için kullanıcı adı ve şifresi girilmelidir. </p>
